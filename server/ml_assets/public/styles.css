@@ -1,0 +1,145 @@
+.page-container {
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  padding-left: 10px;
+  display: inline-flex !important;
+}
+
+@media only screen and (max-width : 992px) {
+  .page-container {
+    padding-left: 0;
+    display: flex !important;
+  }
+}
+
+#navbar {
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  width: 50%;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+}
+
+.side-by-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.side-by-side >* {
+  margin: 0 5px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 8%;
+  padding-right: 8%;
+
+}
+.title {
+  font-weight: bold;
+  font-size: 28px;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.text {
+  font-size: 12px;
+  color: #676767;
+}
+
+.header {
+  font-size: 14px;
+  color: #676767;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+.header-container {
+  text-align: left;
+  width: 100%;
+  padding-left: 8%;
+  margin: 0%;
+}
+.image-container {
+  max-width: 88%;
+  max-height: 23%;
+}
+.margin-sm {
+  margin: 5px;
+}
+
+.margin {
+  margin: 0%;
+}
+
+.button-sm {
+  padding: 0 10px !important;
+}
+
+.button {
+  border: none;
+  color: white;
+  background-color: #FF6D9E;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: auto;
+  cursor: pointer;
+  border-radius: 25px;
+  height: 70%;
+  width: 45%;
+}
+
+.pad-sides-sm {
+  padding: 0 8px !important;
+}
+
+#github-link {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+}
+
+#overlay, .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#facesContainer canvas {
+  margin: 10px;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+    background: #B8ADEF;
+    border: 1px solid #B8ADEF;
+    cursor: pointer;
+    color: #fff;
+    border-radius: .2em;
+}
